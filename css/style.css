@@ -1,0 +1,82 @@
+body { margin: 0; }
+
+#toolbar {
+
+    list-style: none;
+
+    background-color: #5a5a5a;
+    color: #eee;
+
+    width: 50px;
+
+    height: 100%;
+
+    float: left;
+}
+
+.command-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.command {
+    width: 50px;
+    height: 50px;
+
+    margin: 0 auto;
+
+    text-align: center;
+    line-height: 2;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.command:hover {
+    background-color: white;
+    color: black;
+}
+
+#canvas-section {
+    
+    margin-left: 50px;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#wait-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    display: none;
+
+    z-index: 100;
+}
+
+#spinner {
+    position: fixed;
+    width: 4em;
+    height: 4em;
+    top: 50%;
+    left: 50%;
+    margin-top: -2em;
+    margin-left: -2em;
+    text-align: center;
+    color: white;
+}
+
+
+#rectangle-mode-commands {display: none}
+#mask-mode-commands { display: none; }
+
+
+/*Hide anticipated features*/
+#image-load { display: none; }
+#send-drawing { display: none; }
+#select-pencil { display: none; }
+#select-eraser { display: none; }
+#save-image { display: none; }
+
+

@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Webcut: Grabcut for the web</title>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous"</link>
+        <link href="css/style.css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <div id="wait-overlay">
+            <div id="spinner"><i class="fa fa-4x fa-spin fa-spinner"></i></div>
+        </div>
+        <div id="toolbar">
+            <ul class="command-list">
+                <li id="open-image" class="command">
+                    <i class="fa fa-folder-open"></i>
+                </li>
+            </ul>
+             <ul id="rectangle-mode-commands" class="command-list">
+                <li id="send-rectangle" class="command">
+                    <i class="fa fa-paper-plane"></i>
+                </li>
+            </ul>
+            <ul id="mask-mode-commands"  class="command-list">
+                <li id="back-to-rectangle" class="command">
+                    <i class="fa fa-object-group"></i>
+                </li>
+                <li id="send-drawing" class="command">
+                    <i class="fa fa-paper-plane"></i>
+                </li>
+                <li id="select-pencil" class="command">
+                    <i class="fa fa-pencil"></i>
+                </li>
+                <li id="select-eraser" class="command">
+                    <i class="fa fa-eraser"></i>
+                </li>
+                <li id="save-image" class="command">
+                    <i class="fa fa-save"></i>
+                </li>
+            </ul>
+        </div>
+        <div id="canvas-section">
+            <input type="file" id="image-load" />
+            <canvas id="target-canvas">
+            </canvas>
+        </div>
+        <script src="js/vendor/jquery-3.2.1.min.js"></script>
+        <script src="js/vendor/load-image.all.min.js"></script>
+        <script src="js/vendor/fabric.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
