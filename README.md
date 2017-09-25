@@ -21,6 +21,6 @@ can be installed via `pip`.
 All other files compose a client web application that uses the server.
 It requires:
 * [jQuery 3.2.1](http://jquery.com/)
-* fabricjs 1.7.17 (http://fabricjs.com/)
-* [Font Awesome 4] (http://fontawesome.io/)
+* [fabricjs 1.7.17](http://fabricjs.com/)
+* [Font Awesome 4](http://fontawesome.io/)
 * [JavaScript Load Image](https://github.com/blueimp/JavaScript-Load-Image)
